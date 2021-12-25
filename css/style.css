@@ -1,0 +1,15 @@
+.col-item, .class-two {
+  padding-top: 20px;
+}
+
+.class-two {
+  margin-top: 10px;
+}
+
+.class {
+  border-radius: 10px;
+}
+
+body {
+  background: #FEDF43;
+}

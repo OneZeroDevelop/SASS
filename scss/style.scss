@@ -1,0 +1,45 @@
+// colors
+$bg-color: #FEDF43;
+
+
+
+// mixins
+
+@mixin bradius($rad) {
+    -webkit-border-radius: $rad;
+    border-radius: $rad;
+}
+
+
+
+
+
+@mixin mixinname($mixinvalue) {
+    margin-top: $mixinvalue;
+}
+
+@mixin pad-t($pad-t) {
+    padding-top: $pad-t;
+}
+
+.col-item{
+    @include pad-t(20px);
+}
+
+.class-two{
+    @extend .col-item;
+    @include mixinname(10px);
+}
+
+
+
+
+
+.class{
+    @include bradius(10px);
+    color: $bg-color +#ffffff;
+}
+
+body{
+    background: $bg-color;
+}
