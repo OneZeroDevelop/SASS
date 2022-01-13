@@ -8,8 +8,14 @@
 
 .class {
   border-radius: 10px;
+  color: #ffffff !important;
+}
+
+.change {
+  padding-top: 3%;
+  font-size: 3rem;
 }
 
 body {
-  background: #FEDF43;
+  background: #ffffff !important;
 }

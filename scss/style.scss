@@ -1,5 +1,5 @@
 // colors
-$bg-color: #FEDF43;
+$bg-color: #ffffff !important;
 
 
 
@@ -9,10 +9,6 @@ $bg-color: #FEDF43;
     -webkit-border-radius: $rad;
     border-radius: $rad;
 }
-
-
-
-
 
 @mixin mixinname($mixinvalue) {
     margin-top: $mixinvalue;
@@ -32,12 +28,14 @@ $bg-color: #FEDF43;
 }
 
 
-
-
-
 .class{
     @include bradius(10px);
-    color: $bg-color +#ffffff;
+        color: $bg-color;
+}
+
+.change{
+    padding-top: 3%;
+    font-size: 3rem;
 }
 
 body{
